@@ -17,13 +17,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayService", "src\Gatew
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiddingService", "src\BiddingService\BiddingService.csproj", "{00E5B9AE-1E84-49C7-A6A0-E1982DB7B5D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "src\NotificationService\NotificationService.csproj", "{99C9ACAC-3AAC-4738-A71F-9FFF1CDDA581}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D43B883E-CC1C-41A1-87B5-68D2E284497D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -50,6 +49,13 @@ Global
 		{00E5B9AE-1E84-49C7-A6A0-E1982DB7B5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00E5B9AE-1E84-49C7-A6A0-E1982DB7B5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00E5B9AE-1E84-49C7-A6A0-E1982DB7B5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C9ACAC-3AAC-4738-A71F-9FFF1CDDA581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C9ACAC-3AAC-4738-A71F-9FFF1CDDA581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C9ACAC-3AAC-4738-A71F-9FFF1CDDA581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C9ACAC-3AAC-4738-A71F-9FFF1CDDA581}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D43B883E-CC1C-41A1-87B5-68D2E284497D} = {0E88AC3A-4809-4C02-A8B8-EE67E5B2DBE2}
@@ -58,5 +64,6 @@ Global
 		{CC411B31-412D-43F7-A045-9569BA0479B7} = {0E88AC3A-4809-4C02-A8B8-EE67E5B2DBE2}
 		{2032B2AD-1FFD-453C-A316-48609B156256} = {0E88AC3A-4809-4C02-A8B8-EE67E5B2DBE2}
 		{00E5B9AE-1E84-49C7-A6A0-E1982DB7B5D6} = {0E88AC3A-4809-4C02-A8B8-EE67E5B2DBE2}
+		{99C9ACAC-3AAC-4738-A71F-9FFF1CDDA581} = {0E88AC3A-4809-4C02-A8B8-EE67E5B2DBE2}
 	EndGlobalSection
 EndGlobal
