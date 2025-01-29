@@ -1,6 +1,7 @@
 import { auth } from "@/auth"
+import toast from "react-hot-toast"
 
-const baseUrl = 'http://localhost:6001/'
+const baseUrl = process.env.API_URL
 
 async function get(url: string) {
     const requestOptions = {
@@ -65,11 +66,10 @@ async function getHeaders() {
 async function handleResponse(response: Response) {
     const text = await response.text()
     let data
-    // const data = text && JSON.parse(text)
     try {
         data = text && JSON.parse(text)
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
+        toast.error(error)
         data = text
     }
 
