@@ -13,8 +13,7 @@ spec:
     spec:
       containers:
       - name: auction-svc
-        image: lyyhua/auction-svc
-        imagePullPolicy: Never
+        image: lyyhua/auction-svc:latest
         env:   
           - name: ConnectionStrings__DefaultConnection
             valueFrom:

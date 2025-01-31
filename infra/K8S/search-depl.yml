@@ -13,8 +13,7 @@ spec:
     spec:
       containers:
       - name: search-svc
-        image: lyyhua/search-svc
-        imagePullPolicy: Never
+        image: lyyhua/search-svc:latest
         env:
           - name: ConnectionStrings__MongoDbConnection
             valueFrom:
