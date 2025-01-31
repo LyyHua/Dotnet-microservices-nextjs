@@ -16,7 +16,7 @@ jobs:
           - name: 'lyyhua/search-svc'
             path: 'src/SearchService'
           - name: 'lyyhua/bid-svc'
-            path: 'src/BidService'
+            path: 'src/BiddingService'
           - name: 'lyyhua/identity-svc'
             path: 'src/IdentityService'
           - name: 'lyyhua/gateway-svc'
