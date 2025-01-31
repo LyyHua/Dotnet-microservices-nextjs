@@ -13,6 +13,18 @@ jobs:
         service:
           - name: 'lyyhua/auction-svc'
             path: 'src/AuctionService'
+          - name: 'lyyhua/search-svc'
+            path: 'src/SearchService'
+          - name: 'lyyhua/bid-svc'
+            path: 'src/BidService'
+          - name: 'lyyhua/identity-svc'
+            path: 'src/IdentityService'
+          - name: 'lyyhua/gateway-svc'
+            path: 'src/GatewayService'
+          - name: 'lyyhua/notify-svc'
+            path: 'src/NotificationService'
+          - name: 'lyyhua/web-app'
+            path: 'frontend/web-app'
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
